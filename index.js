@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
   
-// Middleware
+// Middlewares
 app.use(cors());
 app.use(express.json());
 
@@ -18,9 +18,9 @@ const user = {
     github_url: "<https://github.com/Zymoclassic/stage0task>"
 }
 
-// Routes
+// Route
 app.get("/", (req, res) => {
-  res.json(user);
+  res.status(200).json(user);
 });
 
 
