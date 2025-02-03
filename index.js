@@ -15,7 +15,7 @@ app.use(express.json());
 const user = { 
     email: "awopejumoses@gmail.com",
     current_datetime: new Date().toISOString(), 
-    github_url: "<https://github.com/Zymoclassic/HNG12/tree/main/stage0task>"
+    github_url: "<https://github.com/Zymoclassic/stage0task>"
 }
 
 // Routes
